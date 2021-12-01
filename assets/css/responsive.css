@@ -1,0 +1,306 @@
+@media (min-width: 1400px) {
+	/* SLIDER OWL NAV RESPPONSIVE  */
+	/* .banner-section .owl-nav > .owl-prev > span,
+	.banner-section .owl-nav > .owl-next > span {
+		width: 80px !important;
+		height: 80px !important;
+		font-size: 26px !important;
+		line-height: 2.5 !important;
+	} */
+}
+
+@media (max-width: 1399px) {
+	html {
+		font-size: 58%;
+	}
+
+	.features-section .features-wrapper .features-content p {
+		padding-right: 2rem;
+	}
+	.footer-top-section .footer-top-wrapper .footer-left .footer-contents {
+		padding-bottom: 1rem;
+	}
+	.footer-top-section .footer-top-wrapper .footer-middle .footer-contents {
+		padding-bottom: 0;
+	}
+	/* SLIDER OWL NAV RESPPONSIVE  */
+}
+@media (max-width: 1199px) {
+	html {
+		font-size: 56%;
+	}
+	.footer-top-section .footer-top-wrapper .footer-left .footer-contents {
+		padding-bottom: 0rem;
+	}
+	.navigation-bar .menu-box .mobile-menu li {
+		margin-right: 25px;
+	}
+	.navigation-bar .menu-box .mobile-menu li a {
+		font-size: 14px;
+	}
+	.about-item .about-content .aboutBox {
+		max-width: 100%;
+	}
+	.about-item .about-content .aboutBox p {
+		padding-right: 15px;
+	}
+	.about-image {
+		flex-basis: 50%;
+	}
+	/* SLIDER OWL NAV RESPPONSIVE  */
+}
+
+@media (max-width: 991px) {
+	html {
+		font-size: 52%;
+	}
+	h1 {
+		font-size: 6.5rem;
+	}
+	header.header-section {
+		min-height: 80px;
+	}
+	header.header-section > nav {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.navigation-bar .logo {
+		margin-top: 7px;
+	}
+	.navigation-bar .right-part {
+		margin-top: 20px;
+	}
+	.navigation-bar .menu-box .mobile-menu {
+		display: none;
+		position: absolute;
+		top: 110px;
+		left: 0;
+		background: rgb(17, 16, 16);
+		width: 100% !important;
+		height: 400px;
+		overflow: scroll;
+	}
+	.navigation-bar .menu-box .mobile-menu li {
+		display: block !important;
+		border-top: 0.5px solid #ffffff15;
+		margin-right: 0;
+		padding: 25px 0;
+		transition: all 0.4s linear;
+	}
+	.navigation-bar .menu-box .mobile-menu li:hover a {
+		color: #fc4311;
+	}
+
+	.navigation-bar .menu-box .mobile-menu li a {
+		padding-left: 30px;
+		font-size: 20px;
+	}
+	.navigation-bar .menu-box .mobile-menu li:hover ul.drop-menu {
+		display: block;
+		background: rgb(17, 16, 16);
+		left: 170px;
+		top: 0;
+	}
+	.navigation-bar .menu-box .mobile-menu li ul.drop-menu li {
+		padding: 25px 10px;
+		background: #fc4311;
+		border-bottom: 0;
+	}
+	.navigation-bar .menu-box .mobile-menu li ul.drop-menu:hover li {
+		padding: 25px 10px;
+		background: #1b1b1b;
+		border-bottom: 0;
+	}
+	.navigation-bar .menu-box .mobile-menu li ul.drop-menu li a {
+		color: #fff;
+	}
+	.navigation-bar .menu-box .search-box {
+		padding-right: 30px;
+	}
+	.navigation-bar .menu-box .toggler-icon {
+		display: block !important;
+		position: relative;
+	}
+	.navigation-bar .menu-box .toggler-icon span,
+	.navigation-bar .menu-box .toggler-icon span::before,
+	.navigation-bar .menu-box .toggler-icon span::after {
+		width: 32px;
+	}
+
+	.about-item {
+		flex-direction: column;
+	}
+
+	.about-item .about-content {
+		flex-basis: 100%;
+	}
+	.about-item .about-image {
+		flex-basis: 100%;
+		padding: 0px 30px;
+	}
+	.about-item .about-content .aboutBox {
+		padding-left: 50px;
+		padding-right: 15px;
+		padding-bottom: 40px;
+	}
+
+	.about-item .about-content .aboutBox p {
+		padding-right: 0;
+	}
+
+	.footer-top {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer-content-right {
+		justify-content: space-between;
+		padding-top: 35px;
+	}
+	.footer-content-right .right-item {
+		margin-left: 0;
+	}
+	/* SLIDER OWL NAV RESPPONSIVE  */
+	.owl-nav > .owl-prev > span,
+	.owl-nav > .owl-next > span {
+		width: 64px !important;
+		height: 64px !important;
+		font-size: 26px !important;
+		line-height: 2.5 !important;
+	}
+}
+@media (max-width: 767px) {
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 27px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	header.header-section > nav {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.space::before {
+		left: 40%;
+	}
+	/* ABOUT SECTION RESPONSIVE  */
+	.about-item {
+		display: block;
+		padding-bottom: 7rem !important;
+	}
+	.about-item .aboutBox {
+		padding-left: 30px !important;
+	}
+	.about-image {
+		padding: 0px 30px;
+	}
+	.footer-top-section .footer-left {
+		margin-bottom: 3rem;
+	}
+	.footer-top-section .footer-right h3 {
+		text-align: left;
+	}
+	.footer-top-section .social-links {
+		justify-content: flex-start;
+	}
+	.footer-top-section .social-links li {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.footer-top-section .social-links li:last-child {
+		margin-right: 0px;
+	}
+	/* SLIDER OWL NAV RESPPONSIVE  */
+	.owl-nav > .owl-prev > span,
+	.owl-nav > .owl-next > span {
+		width: 45px !important;
+		height: 45px !important;
+		font-size: 22px !important;
+		line-height: 2 !important;
+	}
+}
+@media (max-width: 575px) {
+	h1 {
+		font-size: 4rem;
+	}
+	.banner-wrapper {
+		padding-bottom: 22%;
+	}
+	.section-title h2.heading {
+		font-size: 3rem;
+	}
+	.section-title h2.heading::after {
+		top: 35px;
+	}
+
+	.about-image {
+		padding: 30px 10px;
+	}
+	.space::before {
+		left: 40%;
+	}
+	.contact-section .section-title {
+		margin-bottom: 0rem;
+	}
+	.footer-top h3 {
+		padding-bottom: 10px;
+	}
+	.footer-top ul {
+		padding-bottom: 20px;
+	}
+	.footer-top form {
+		margin-top: 10px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+	.footer-content-right .right-item form input {
+		position: relative;
+		padding-right: 105px;
+	}
+	.footer-content-right .right-item form button {
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	}
+	.footer-content-left {
+		display: block;
+		margin: auto;
+	}
+	.left-item {
+		text-align: center;
+	}
+	.footer-content-left .left-item ul li a i {
+		color: #ffffff;
+		font-size: 13px;
+		width: 26px;
+		height: 26px;
+	}
+	.footer-content-right {
+		display: block;
+		margin: auto;
+		padding-top: 35px;
+	}
+	.footer-content-right .right-item {
+		max-width: 100%;
+		text-align: center;
+		margin-bottom: 26px;
+	}
+
+	/* SLIDER OWL NAV RESPPONSIVE  */
+	.owl-nav > .owl-prev > span,
+	.owl-nav > .owl-next > span {
+		width: 30px !important;
+		height: 30px !important;
+		font-size: 16px !important;
+		line-height: 1.7 !important;
+	}
+}
+@media (max-width: 480px) {
+	.space::before {
+		left: 35%;
+	}
+}

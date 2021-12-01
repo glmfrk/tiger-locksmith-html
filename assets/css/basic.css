@@ -1,0 +1,133 @@
+/* GOOGLE FONTS CSS CODE  */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* footer part using this fonts  */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Work Sans", sans-serif;
+	scroll-behavior: smooth;
+	transition: all 0.3s linear;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Work Sans";
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	text-transform: capitalize;
+}
+h1 {
+	font-family: "Work Sans";
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 74px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #151515;
+}
+
+h2 {
+	font-size: 4rem;
+}
+h3 {
+	font-size: 3rem;
+}
+h4 {
+	font-size: 2.2rem;
+}
+p {
+	font-family: "Work Sans";
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+ul,
+li,
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+img {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+button.btn,
+a.btn {
+	display: block;
+	transition: all 0.4s linear;
+}
+
+.section-title {
+	padding-bottom: 8rem;
+	margin: auto;
+}
+.heading {
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 53px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #151515;
+}
+.section-title > p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.section-title h2.heading-v2 {
+	font-size: 4rem;
+	font-weight: bold;
+	color: #191919;
+	text-align: center;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+button,
+input,
+textarea {
+	border: none;
+	outline: none;
+}
+
+.sticky {
+	position: fixed;
+	z-index: 99;
+	box-shadow: 0px 7px 16px 3px #22112245;
+}
+
+._wrapper {
+	padding-top: 8.3%;
+	padding-bottom: 8.3%;
+}
+._wrapper_v120 {
+	padding-top: 6.3%;
+	padding-bottom: 6.3%;
+}
+._wrapper_pb120 {
+	padding-bottom: 4%;
+}
